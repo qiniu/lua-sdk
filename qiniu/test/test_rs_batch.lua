@@ -133,6 +133,6 @@ end
 test_rs_batch.batchstat_test = batchstat_test
 test_rs_batch.batchcopy_test = batchcopy_test
 test_rs_batch.batchmove_test = batchmove_test
-return test_rs_batch
+return t
 
 	

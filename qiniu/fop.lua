@@ -36,4 +36,4 @@ t.image_view = image_view
 t.image_info = image_info
 t.exif = exif
 
-return qiniu_fop
+return t

@@ -54,4 +54,4 @@ end
 
 t.client = client
 t.mac = mac
-return qiniu_auth_digest
+return t

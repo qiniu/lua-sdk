@@ -717,4 +717,4 @@ function t.hmac_sha1_binary(key, text)
    return hex_to_binary(t.hmac_sha1(key, text))
 end
 
-return qiniu_hmac_sha1
+return t

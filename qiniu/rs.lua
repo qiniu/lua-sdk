@@ -103,4 +103,4 @@ end
 t.client = client
 t.entry_path = entry_path
 t.entry_path_pair = entry_path_pair
-return qiniu_rs
+return t

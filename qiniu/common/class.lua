@@ -53,4 +53,4 @@ function class.new(super)
 	return class_type
 end
 
-return class
+return t

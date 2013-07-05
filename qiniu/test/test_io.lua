@@ -42,6 +42,6 @@ function io_test:test()
 end
 
 test_io.io_test = io_test
-return test_io
+return t
 
 

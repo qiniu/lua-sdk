@@ -52,4 +52,4 @@ end
 t.put_extra = put_extra
 t.put_file = put_file
 t.get_url = get_url
-return qiniu_io
+return t

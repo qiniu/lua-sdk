@@ -123,4 +123,4 @@ function qiniu_client:set_headers(headers)
 	for k, v in pairs(headers) do self.headers[k] = v end
 end
 
-return qiniu_client
+return t

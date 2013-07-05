@@ -8,7 +8,7 @@ local client = class.new(qiniu_client)
 
 function client:ctor(para_tbl)
 	if para_tbl then self.up_token = para_tbl.token end
-	self.super:ctor{host = config.UP_HOST}
+	self.super.ctor(self, {host = config.UP_HOST})
 end
 
 function client:round_tripper(method, path, body)
@@ -17,4 +17,4 @@ function client:round_tripper(method, path, body)
 end
 
 t.client = client
-return qiniu_auth_up
+return t

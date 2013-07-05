@@ -122,5 +122,5 @@ end
 rs_test.stat_test = stat_test
 rs_test.copy_test = copy_test
 rs_test.move_test = move_test
-return rs_test
+return t
 	

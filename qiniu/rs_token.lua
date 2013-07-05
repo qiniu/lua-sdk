@@ -51,4 +51,4 @@ t.put_policy = put_policy
 t.get_policy = get_policy
 t.make_base_url = make_base_url
 
-return qiniu_rs_token
+return t

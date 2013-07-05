@@ -27,4 +27,4 @@ function test_case:run()
 	self:clean_up()
 end
 
-return test_case
+return t

@@ -58,5 +58,5 @@ end
 test_fop.exif_test = exif_test
 test_fop.imageinfo_test = imageinfo_test
 test_fop.imageview_test = imageview_test
-return test_fop
+return t
 
